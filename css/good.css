@@ -8,6 +8,7 @@
 /*component*/
 @import "component/status-bar.css";
 @import "component/fr-bar.css";
+@import "component/m-header.css";
 
 /*screen*/
 @import "screen/welcome.css";
