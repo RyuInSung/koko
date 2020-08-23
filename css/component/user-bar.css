@@ -1,0 +1,24 @@
+.user-bar {
+  display: flex;
+}
+
+.user-bar__main:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.user-bar__photo {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.user-bar__name-title {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.user-bar__name-sub {
+  color: rgba(0, 0, 0, 0.5);
+}

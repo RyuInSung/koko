@@ -9,6 +9,8 @@
 @import "component/status-bar.css";
 @import "component/fr-bar.css";
 @import "component/m-header.css";
+@import "component/link-box.css";
+@import "component/user-bar.css";
 
 /*screen*/
 @import "screen/welcome.css";
