@@ -1,0 +1,42 @@
+.nav-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: teal;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  border-top: solid 1px rgba(0, 0, 0, 0.5);
+}
+.nav-bar__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bar__button {
+  position: relative;
+}
+
+.nav-bar__new {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  color: white;
+  font-weight: 10;
+  bottom: 15px;
+  left: 20px;
+}
+
+.nav-bar__new2 {
+  background-color: tomato;
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  display: flex;
+  position: absolute;
+  left: 35px;
+}

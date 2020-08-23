@@ -1,66 +1,18 @@
+/*font style*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap");
-@import "status-bar.css";
-@import "reset.css";
-@import "blue.css";
+
+/*variable*/
+@import "variable/reset.css";
+@import "variable/blue.css";
+
+/*component*/
+@import "component/status-bar.css";
+@import "component/fr-bar.css";
+
+/*screen*/
+@import "screen/welcome.css";
 
 body {
   font-family: "Open Sans", sans-serif;
-}
-
-.welcome-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 90px 0px;
-  text-align: center;
-}
-
-.welcome-header__title {
-  margin-bottom: 30px;
-  font-size: 25px;
-}
-
-.welcome-header__text {
-  width: 50%;
-  opacity: 0.7;
-}
-
-#log-in-form {
-  display: flex;
-  flex-direction: column;
-  margin: 0px 30px;
-}
-
-#log-in-form input {
-  border: none;
-  padding: 15px 0px;
-  font-size: 25px;
-  margin-bottom: 20px;
-}
-
-#log-in-form input:not([type="submit"]) {
-  border-bottom: solid 1px rgba(0, 0, 0, 0.3);
-  transition: border-color 1s ease-in-out;
-}
-
-#log-in-form input[type="submit"] {
-  background-color: var(--abc);
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-#log-in-form input::placeholder {
-  color: rgba(0, 0, 0, 0.5);
-}
-
-#log-in-form input:focus {
-  outline: none;
-  border-color: var(--abc);
-}
-
-#log-in-form a {
-  color: inherit;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
+  height: 300vh;
 }
