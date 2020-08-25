@@ -11,6 +11,10 @@
 @import "component/m-header.css";
 @import "component/link-box.css";
 @import "component/user-bar.css";
+@import "component/body-main.css";
+@import "component/redcircle.css";
+@import "component/reddot.css";
+@import "component/menu.css";
 
 /*screen*/
 @import "screen/welcome.css";

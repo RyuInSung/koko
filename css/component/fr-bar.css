@@ -17,26 +17,19 @@
 }
 
 .nav-bar__new {
-  background-color: tomato;
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
-  color: white;
   font-weight: 10;
   bottom: 15px;
   left: 20px;
 }
 
 .nav-bar__new2 {
-  background-color: tomato;
-  width: 4px;
-  height: 4px;
-  border-radius: 2px;
   display: flex;
   position: absolute;
   left: 35px;
+}
+
+.nav-bar__new3 {
+  display: flex;
+  right: 60px;
 }

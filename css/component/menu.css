@@ -1,0 +1,31 @@
+.menu__top-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+.menu__top-list-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-mid {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.menu__mid-one {
+  padding: 10px 0px;
+  border-top: solid 1px rgba(0, 0, 0, 0.1);
+}
+
+.menu__mid-two {
+  text-align: center;
+  padding: 50px 0px;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+}
+
+.menu__bot {
+  color: rgba(0, 0, 0, 0.2);
+}
