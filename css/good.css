@@ -1,0 +1,25 @@
+/*font style*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap");
+
+/*variable*/
+@import "variable/reset.css";
+@import "variable/blue.css";
+
+/*component*/
+@import "component/status-bar.css";
+@import "component/fr-bar.css";
+@import "component/m-header.css";
+@import "component/link-box.css";
+@import "component/user-bar.css";
+@import "component/body-main.css";
+@import "component/redcircle.css";
+@import "component/reddot.css";
+@import "component/menu.css";
+
+/*screen*/
+@import "screen/welcome.css";
+
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 300vh;
+}

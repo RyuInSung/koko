@@ -1,0 +1,11 @@
+.this-is-main {
+  padding: 0px var(--horizontal-space);
+}
+
+.this-is-main__friends-title {
+  color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  border-top: solid 1px rgba(0, 0, 0, 0.1);
+}

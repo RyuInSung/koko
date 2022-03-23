@@ -1,0 +1,11 @@
+#link-go {
+  background-color: wheat;
+  padding: 10px 0px;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#link-go i {
+  color: rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,10 @@
+.redcircle {
+  background-color: tomato;
+  width: 26px;
+  height: 26px;
+  border-radius: 13px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,35 @@
+.nav-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: teal;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  border-top: solid 1px rgba(0, 0, 0, 0.5);
+}
+.nav-bar__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bar__button {
+  position: relative;
+}
+
+.nav-bar__new {
+  position: absolute;
+  font-weight: 10;
+  bottom: 15px;
+  left: 20px;
+}
+
+.nav-bar__new2 {
+  display: flex;
+  position: absolute;
+  left: 35px;
+}
+
+.nav-bar__new3 {
+  display: flex;
+  right: 60px;
+}

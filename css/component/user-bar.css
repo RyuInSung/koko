@@ -1,0 +1,52 @@
+.user-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0px;
+}
+
+.user-bar__main {
+  display: flex;
+  align-items: center;
+}
+
+.user-bar__main:last-child {
+  color: rgba(0, 0, 0, 0.5);
+  flex-direction: column;
+}
+
+.user-bar__main-photo {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.user-bar__main-name-title {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.user-bar__main-name-title-sm {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.user-bar__main-name-sub {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.user-bar__main-photo-xl {
+  width: 80px;
+  height: 80px;
+}
+
+.user-bar__main-photo-middle {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+}
+
+.user-bar__main-photo-sm {
+  width: 60px;
+  height: 60px;
+}
